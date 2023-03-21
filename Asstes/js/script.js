@@ -169,10 +169,8 @@ newsubmit.addEventListener("click", function (event) {
 
 
 but01.addEventListener("click", function handleButtonClick(event) {
-    // remove the event listener to prevent it from being triggered multiple times
     but01.removeEventListener("click", handleButtonClick);
-
-    // the rest of your code here
+    
     mainPage.innerHTML = "";
     startButt.style.display = 'none'
     heah2.textContent = "";
